@@ -1,5 +1,5 @@
 # HVAC_Offline_RL
-Offline RL algorithm-based controllers for building HVAC systems.
+We study the problem of data-driven HVAC control methods in buildings based on offline reinforcement learning. More specifically, we investigate the algorithm performance and dataset characteristics (i.e., qualitative and quantitative conditions).
 
 ## Project Structure
 
@@ -30,4 +30,12 @@ The installation instruction of the core `energym` and `rl-testbed-for-energyplu
 
 Some customization of functions in `d3rlpy` and `energym` can be found in https://github.com/cityujun/d3rlpy and https://github.com/cityujun/energym.
 
-## Citation
+## If you use our code, please cite the paper
+```
+@article{wang2024experimental,
+  title={Experimental evaluation of offline reinforcement learning for HVAC control in buildings},
+  author={Wang, Jun and Li, Linyan and Liu, Qi and Yang, Yu},
+  journal={arXiv preprint arXiv:2408.07986},
+  year={2024}
+}
+```
